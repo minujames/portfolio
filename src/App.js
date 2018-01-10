@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 
 
 const App = () => 
-  <div className="container">
+  <div>
     <Header/>
     <About/>
     <Portfolio/>

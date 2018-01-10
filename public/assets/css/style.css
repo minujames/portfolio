@@ -1,5 +1,57 @@
+
 .main-section{
   width: 100%;
   min-height: 100vh;
-  padding-top: 70px;
+  padding: 70px 0 20px 0;
+  /*text-align: center;*/
+}
+
+.about-section {
+  /*background: url('/assets/images/dark_wall.jpg');*/
+  /*background: linear-gradient(grey, white);*/
+  /*background-position: cover;*/
+}
+
+.portfolio-section{
+  /*text-align: center;*/
+
+}
+
+.about-content{
+  width: 100%;
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 50vh;  These two lines are counted as one :-)       
+
+  /*display: flex;*/
+  /*align-items: center;*/
+}
+
+.project{
+  box-shadow:  0 1px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  min-height: 100%;
+}
+
+.project-row{
+  padding: 15px;
+}
+
+.project-image{
+  width: 450px;
+  height: auto;
+}
+
+.project-image-section{
+  padding: 5%;
+}
+
+.project-details-section{
+  background-color: grey;
+  padding: 5%;
+  color: white;
+}
+
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
 }
