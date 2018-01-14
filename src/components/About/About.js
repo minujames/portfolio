@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {Image, Table} from 'react-bootstrap';
 import {Circle} from 'rc-progress';
+import ContactLinks from "../ContactLinks";
 
 
 const About = () =>
@@ -16,14 +17,16 @@ const About = () =>
       <div className=" row">
         <div className="col-md-12 col-sm-12 col-xs-12">
           <div className="about-tab clearfix">
-            <Image src="/assets/images/minu.png" className=" profile-image" circle/>
+            <Image src="/assets/images/minu.png" className="profile-image" circle/>
             <div className="about-text">
               <p>Hi, I am an Oracle certified Java developer with six years of experience in the design and development of Java and JavaScript applications.
               I love solving problems and coming up with innovative solutions.
-              Over the years I have developed the skills to deliver well crafted and maintainable code.</p>
+              </p>
+              <br/>
               <p>Primary Skills: JAVA, JavaScript, React</p>
               <p>Other Skills: Node.js, JQuery, Express, HTML, CSS, BootStrap, Handlebars, MySQL, MongoDB</p>
             </div>
+            <ContactLinks/>
           </div>
         </div>
       </div>

@@ -1,18 +1,6 @@
 
-/*.main-section{
-  width: 100%;
-  min-height: 100vh;
-  padding: 50px 0 20px 0;
-}*/
-
-body{
-  /*background-color: #fafafa !important;*/
-
-}
-
 .about-section {
   width: 100%;
-  /*min-height: 100vh;*/
   padding: 50px 0 0px 0;
 }
 
@@ -31,7 +19,6 @@ body{
 
 .title{
   font-family: 'Julius Sans One', sans-serif;
-  /*font-family: sans-serif;*/
   font-size: 50px;
   color: white;
   font-weight: bold;
@@ -52,14 +39,9 @@ body{
 
 .about-image-section{
   text-align: center;
-  /*background-color: grey;*/
   background: url('/assets/images/monterey.jpg');
   background-size: 100% 100%;
-  /*background-position: cover;*/
-  /*background-repeat: no-repeat;*/
   height: 55vh;
-  /*-webkit-filter: grayscale(50%);*/
-  /*filter: grayscale(30%);*/
 }
 
 .header-link{
@@ -84,9 +66,6 @@ body{
 }
 
 .project{
-  /*box-shadow:  0 1px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 4px 0 rgba(0, 0, 0, 0.14);*/
-  /*pa
-  dding: 5%;*/
   margin: 5%;
 }
 
@@ -99,27 +78,24 @@ body{
   height: auto;
 }
 
-.project-image-section{
-  /*padding: 5%;*/
-  /*float:left;*/
-  text-align: center;
-}
-
-.project-details-section{
-  /*padding: 0 5% 5% 5%;*/
-  /*text-align: justify;*/
-}
-
 .skills {
   text-align: center;
 }
 
 .contact-icon{
-  font-size: 40px;
+  font-size: 45px;
   padding: 5px;
 }
 
-.linkedin-icon{
+.contact-icon:hover{
+  opacity: 0.8;
+}
+
+.fa-github-square{
+  color: black;
+}
+
+.fa-linkedin-square{
   color: #0077B5;
 }
 
@@ -131,7 +107,7 @@ body{
 
 .profile-image{
   width: 250px;
-  height: 250px;
+  height: auto;
   float: left;
   margin-right: 25px;
 }
@@ -146,29 +122,25 @@ body{
 }
 
 .about-text{
-  /*padding: 30px;*/
   text-align: justify;
-  /*font-family: 'Roboto', sans-serif;*/
   font-size: 1.2em;
   color: rgb(102,102,102);
 }
 
 .project-description, .project-techstack {
-  /*font-family: 'Roboto', sans-serif;*/
   font-size: 1.1em;
   color: rgb(102,102,102);
 }
 
 .contact-image{
   width: 150px;
-  height: 150px;
+  height: auto;
   margin: 10px;
 }
 
 .contact-description{
   float: left;
   margin-top: 40px;
-  /*font-family: 'Roboto', sans-serif;*/
   font-size: 1.2em;
   color: rgb(102,102,102);
 }

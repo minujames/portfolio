@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import {Image} from 'react-bootstrap';
+import ContactLinks from "../ContactLinks";
 
 
 const Contact = () =>
@@ -14,15 +15,7 @@ const Contact = () =>
 
         <div className="contact-image-section"> 
           <Image src="/assets/images/minu.png" circle  className="contact-image" />
-          
-          <div className="contact-icons">
-            <span className="contact-icon">
-              <i class="fa fa-github-square" aria-hidden="true"></i>
-            </span>
-            <span className="contact-icon linkedin-icon">
-              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-            </span>
-          </div>
+          <ContactLinks/>
         </div>
         
 
