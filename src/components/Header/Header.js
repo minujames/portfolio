@@ -21,7 +21,7 @@ class Header extends Component {
 
   render() {
     return (
-      <Navbar fixedTop 
+      <Navbar fixedTop
       onToggle={this.setNavExpanded}
       expanded={this.state.navExpanded}>
         <Navbar.Header>

@@ -1,6 +1,5 @@
-import React, { Component } from "react";
-import {Image, Table} from 'react-bootstrap';
-import {Circle} from 'rc-progress';
+import React from "react";
+import {Image} from 'react-bootstrap';
 import ContactLinks from "../ContactLinks";
 
 
@@ -8,7 +7,7 @@ const About = () =>
   <section id="about" className="about-section">
 
     <div className="row about-image-section">
-      <div className="col-md-12" style={{textAlign: "center", padding: "10%"}}>
+      <div className="col-md-12">
         <h1 className="title">FULL STACK DEVELOPER</h1>
       </div>
     </div>
@@ -17,7 +16,9 @@ const About = () =>
       <div className=" row">
         <div className="col-md-12 col-sm-12 col-xs-12">
           <div className="about-tab clearfix">
-            <Image src="/assets/images/minu.png" className="profile-image" circle/>
+            <div className="profile-image-wrapper">
+              <Image src="/assets/images/minu.png" className="profile-image" circle responsive/>
+            </div>
             <div className="about-text">
               <p>Hi, I am an Oracle certified Java developer with six years of experience in the design and development of Java and JavaScript applications.
               I love solving problems and coming up with innovative solutions.

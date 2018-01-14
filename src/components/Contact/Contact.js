@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import {Image} from 'react-bootstrap';
 import ContactLinks from "../ContactLinks";
 
@@ -9,16 +9,11 @@ const Contact = () =>
     <h3 className="page-heading">GET IN TOUCH</h3>
 
     <div className="row">
-    <div className="col-md-2">
-    </div>
-      <div className="col-md-8">
-
+      <div className="col-md-12 contact-content clearfix">
         <div className="contact-image-section"> 
           <Image src="/assets/images/minu.png" circle  className="contact-image" />
           <ContactLinks/>
         </div>
-        
-
         <div className="contact-description">
           <p> I am available for hire and open to project ideas</p>
           <p>I can help with the following:</p>
@@ -28,8 +23,6 @@ const Contact = () =>
           <p>Send me an email at minu.emilia@gmail.com</p>
         </div>
       </div>
-      <div className="col-md-2">
-    </div>
     </div>
 
     <footer>

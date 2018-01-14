@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Project from "../Project"
 
 const Portfolio = () =>
@@ -6,7 +6,7 @@ const Portfolio = () =>
     <h3 className="page-heading">PORTFOLIO</h3>
     
     <div className="row project-row">
-      <div className="col-md-12 col-sm-12" clearfix>
+      <div className="col-md-12 col-sm-12">
         <Project 
         title="Cali.cool"
         imageUrl="/assets/images/cali-cool-mac.png" 
@@ -54,7 +54,7 @@ const Portfolio = () =>
       </div>
     </div>
     <hr/>
-    
+
     {
     //   <div className="row project-row">
     //   <div className="col-md-6 col-sm-12">
