@@ -3,33 +3,32 @@ import {Image} from 'react-bootstrap';
 
 const Project = (props) =>
   <div className="project">
-    <div>
-      <section className="project-image-section">
+    <div className="row">
+      <div className="col-md-6 project-image-section">
         <Image responsive src={props.imageUrl} alt={props.title} className="project-image"/>
-      </section>
+      </div>
+      <div className="col-md-6 project-details-section">
+        <a href={props.deployedUrl} target="_blank">
+          <h3 className="project-title">{props.title}</h3>
+        </a>      
 
-      <section className="project-details-section">
-      <a href={props.deployedUrl} target="_blank"><h3>{props.title}</h3></a>      
-
-       <div>
+        <div className="project-description">
           {props.description}
         </div>
 
         <br/>
 
-        <div>
+        <div className="project-techstack">
           {props.techStack}
         </div>
 
         <br/>
 
-        <div>
+        <div className="project-git">
           <a target="_blank" href={props.githubUrl}>View On GitHub</a>
         </div>
-      </section>
+      </div>
     </div>
-    
-
   </div>
 
 export default Project;

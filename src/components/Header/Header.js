@@ -21,12 +21,12 @@ class Header extends Component {
 
   render() {
     return (
-      <Navbar inverse fixedTop 
+      <Navbar fixedTop 
       onToggle={this.setNavExpanded}
       expanded={this.state.navExpanded}>
         <Navbar.Header>
           <Navbar.Brand>
-            <span>MINU JAMES</span>
+            <span className="header-link" >MINU JAMES</span>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
@@ -34,13 +34,13 @@ class Header extends Component {
         <Navbar.Collapse>
           <Nav pullRight>
             <NavItem eventKey={1} href="#">
-              <Link className="" activeClass="" onClick={this.closeNavBar} to="about" spy={true} smooth={true} duration={500}>About</Link>
+              <Link className="header-link" activeClass="active-link" onClick={this.closeNavBar} to="about" spy={true} smooth={true} duration={500}>ABOUT</Link>
             </NavItem>
             <NavItem eventKey={2} href="#">
-              <Link className="" activeClass="" onClick={this.closeNavBar} to="portfolio" spy={true} smooth={true} duration={500}>Portfolio</Link>
+              <Link className="header-link" activeClass="active-link" onClick={this.closeNavBar} to="portfolio" spy={true} smooth={true} duration={500}>PORTFOLIO</Link>
             </NavItem>
             <NavItem eventKey={3} href="#">
-              <Link className="" activeClass="" onClick={this.closeNavBar} to="contact" spy={true} smooth={true} duration={500}>Contact</Link>
+              <Link className="header-link" activeClass="active-link" onClick={this.closeNavBar} to="contact" spy={true} smooth={true} duration={500}>CONTACT</Link>
             </NavItem>
           </Nav>
         </Navbar.Collapse>
