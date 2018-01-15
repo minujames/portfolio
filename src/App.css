@@ -1,30 +1,203 @@
 
+.about-section {
+  width: 100%;
+  padding: 50px 0 0px 0;
+}
 
-/*.App {
+.portfolio-section{
+  min-height: 100vh;
+  padding: 50px 0 0px 0;
+}
+
+.contact-section{
+  min-height: 100vh;
+  padding: 50px 0 20px 0;
+  position: relative;
+}
+
+.title{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: 23vh;
+}
+
+.page-heading{
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.navbar{
+  margin: 0px !important;
+}
+
+.about-image-section{
+  text-align: center;
+  background: url('./monterey.jpg');
+  background-size: 100% 100%;
+  height: 55vh;
+}
+
+.header-link{
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+.header-link:hover{
+  color: red;
+}
+
+.active-link{
+  color: red;
+}
+
+.project{
+  margin: 5%;
+}
+
+.project-row{
+  padding: 15px;
+}
+
+.project-image{
+  width: 450px;
+  height: auto;
+}
+
+.project-image-section{
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.skills {
+  text-align: center;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.contact-icon{
+  font-size: 45px;
+  padding: 5px;
 }
 
-.App-title {
-  font-size: 1.5em;
+.contact-icon:hover{
+  opacity: 0.8;
 }
 
-.App-intro {
-  font-size: large;
+.fa-github-square{
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}*/
+.fa-linkedin-square{
+  color: #0077B5;
+}
+
+.profile-image{
+  width: 250px;
+  height: auto;
+  margin: 0 auto !important;
+}
+
+.profile-image-wrapper{
+  float: left;
+  margin-right: 25px;
+}
+
+.about-tab{
+  position: relative;
+  top: -50px;
+  background-color: white;
+  padding: 3% 6% 3% 6%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.about-text{
+  text-align: justify;
+  font-size: 1.2em;
+  color: rgb(102,102,102);
+}
+
+.project-description, .project-techstack {
+  font-size: 1.1em;
+  color: rgb(102,102,102);
+}
+
+.contact-image{
+  width: 150px;
+  height: auto;
+  margin: 10px;
+}
+
+.contact-description{
+  float: left;
+  margin-top: 40px;
+  font-size: 1.2em;
+  color: rgb(102,102,102);
+}
+
+.contact-image-section{
+  float: left;
+  text-align: center;
+  padding: 2%;
+}
+
+footer{
+  display: block;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+}
+
+@media screen and (max-width: 991px) {
+
+  .project-image{
+    margin: 0 auto;
+  }
+
+  .project-details-section{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .profile-image-wrapper{
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  .about-tab{
+    position: relative;
+    top: 20px;
+  }
+
+  .profile-image{
+    margin: 0 auto;
+  }
+
+  .project-image{
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  .contact-image-section{
+    float:none;
+    padding: 0px;
+  }
+
+  .contact-description{
+    margin: 2% 10%;
+  }
+
+  .about-tab{
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+  }
+}

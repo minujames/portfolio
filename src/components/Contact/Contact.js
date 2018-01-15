@@ -2,6 +2,8 @@ import React from "react";
 import {Image} from 'react-bootstrap';
 import ContactLinks from "../ContactLinks";
 
+import profileImage from "../About/minu.png";
+
 
 const Contact = () =>
   <section id="contact" className="container contact-section">
@@ -11,7 +13,7 @@ const Contact = () =>
     <div className="row">
       <div className="col-md-12 contact-content clearfix">
         <div className="contact-image-section"> 
-          <Image src="/assets/images/minu.png" circle  className="contact-image" />
+          <Image src={profileImage} circle  className="contact-image" />
           <ContactLinks/>
         </div>
         <div className="contact-description">

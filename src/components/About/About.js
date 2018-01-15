@@ -1,7 +1,7 @@
 import React from "react";
 import {Image} from 'react-bootstrap';
 import ContactLinks from "../ContactLinks";
-
+import profileImage from "./minu.png";
 
 const About = () =>
   <section id="about" className="about-section">
@@ -17,7 +17,7 @@ const About = () =>
         <div className="col-md-12 col-sm-12 col-xs-12">
           <div className="about-tab clearfix">
             <div className="profile-image-wrapper">
-              <Image src="/assets/images/minu.png" className="profile-image" circle responsive/>
+              <Image src={profileImage} className="profile-image" circle responsive/>
             </div>
             <div className="about-text">
               <p>Hi, I am an Oracle certified Java developer with six years of experience in the design and development of Java and JavaScript applications.
