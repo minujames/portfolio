@@ -166,6 +166,10 @@ footer{
   .title{
     font-size: 3em;
   }
+
+  .contact-icons{
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -201,10 +205,6 @@ footer{
 
   .contact-description{
     margin: 2% 10%;
-  }
-
-  .profile-image-wrapper{
-    margin: 0 auto;
   }
 
   .about-tab{
