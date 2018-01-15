@@ -176,6 +176,10 @@ footer{
     top: 20px;
   }
 
+  .profile-image{
+    margin: 0 auto;
+  }
+
   .project-image{
     margin: 0 auto;
   }

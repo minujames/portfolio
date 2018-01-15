@@ -24,10 +24,6 @@ const Contact = () =>
         </div>
       </div>
     </div>
-
-    <footer>
-      <span>&copy; Minu James 2018</span>
-    </footer>
   </section>
 
 export default Contact;
