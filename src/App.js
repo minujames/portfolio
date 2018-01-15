@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 
 
 const App = () => 
-  <div>
+  <div style={{width: "100%"}}>
     <Header/>
     <About/>
     <Portfolio/>
